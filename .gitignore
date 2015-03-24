@@ -1,0 +1,15 @@
+.idea/
+*.eml
+*.iml
+.DS_Store
+*~
+out/
+build/
+gen/
+/local.properties
+
+/AndroidManifest.xml.bak
+
+/local.properties
+
+/AndroidManifest.xml.bak
