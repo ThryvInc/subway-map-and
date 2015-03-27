@@ -1,4 +1,4 @@
-package com.rndapp.montrealmap;
+package com.rndapp.londonmap;
 
 import com.flurry.android.FlurryAgent;
 import android.os.Bundle;
