@@ -1,4 +1,4 @@
-package com.rndapp.montrealmap;
+package com.rndapp.madridmap;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -19,7 +19,7 @@ public class MapFragment extends Fragment {
 
         // shows map
         TouchImageView img = (TouchImageView)root.findViewById(R.id.touchImg);
-        img.setDoubleTapScaleFactor(3.f);
+        img.setDoubleTapScaleFactor(5.f);
         BitmapFactory.Options options = new BitmapFactory.Options();
         options.inScaled = false;
         Bitmap subway = BitmapFactory.decodeResource(getResources(), R.drawable.subway, options);
