@@ -1,9 +1,11 @@
 package com.rndapp.montrealmap;
 
+import com.crashlytics.android.Crashlytics;
 import com.flurry.android.FlurryAgent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.ActionBarActivity;
+import io.fabric.sdk.android.Fabric;
 
 public class MapActivity extends ActionBarActivity {
 
@@ -11,6 +13,7 @@ public class MapActivity extends ActionBarActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Fabric.with(this, new Crashlytics());
         setContentView(R.layout.main);
 
         FragmentManager fragmentManager = getSupportFragmentManager();
