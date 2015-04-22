@@ -24,7 +24,7 @@ public class MapActivity extends ActionBarActivity {
     protected void onStart()
     {
     	super.onStart();
-    	FlurryAgent.onStartSession(this, "J8FRNPXSK99CH9VQNT38");
+    	FlurryAgent.onStartSession(this, "59FBKY5M8VSSDT26SHVB");
     }
      
     @Override

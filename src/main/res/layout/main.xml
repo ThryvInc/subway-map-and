@@ -6,7 +6,7 @@
 	
 	<com.google.ads.AdView android:id="@+id/ad"
 		android:layout_width="wrap_content" android:layout_height="wrap_content"
-		ads:adSize="BANNER" ads:adUnitId="a151a6b4967224d" ads:loadAdOnCreate="true"
+		ads:adSize="BANNER" ads:adUnitId="ca-app-pub-2574276621042285/8047047706" ads:loadAdOnCreate="true"
 		ads:testDevices="TEST_EMULATOR,TEST_DEVICE_ID_GOES_HERE" />
 
     <Button
